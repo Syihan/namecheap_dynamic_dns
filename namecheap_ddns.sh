@@ -1,0 +1,1 @@
+echo url="https://dynamicdns.park-your-domain.com/update?host=*&domain=syihan.com&password=e88d11c6f2bb414bbfd34041aa917c51" | curl -k -o ~/namecheap_ddns/namecheap_ddns.log -K -
