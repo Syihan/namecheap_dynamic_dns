@@ -57,7 +57,7 @@ vi namecheap_ddns.sh
 ```
 Copy the following text using the Vim editor (press 'i' to toggle insert mode first).
 ```
-echo url="https://dynamicdns.park-your-domain.com/update?host=*&domain=syihan.com&password=e88d11c6f2bb414bbfd34041aa917c51" | curl -k -o ~/namecheap_ddns/namecheap_ddns.log -K -
+echo url="https://dynamicdns.park-your-domain.com/update?host=*&domain=DOMAIN&password=DYNAMIC_DNS_PASSWORD" | curl -k -o ~/namecheap_ddns/namecheap_ddns.log -K -
 ```
 Save the file by hitting ESQ and :wq! and ENTER.
 
